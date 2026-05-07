@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(245, 208, 78);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 280px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 8px 8px 0px black;
+    margin-top: 55px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+#description{
+    font-size: 14px;
+    color: hsl(0, 0%, 50%);
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 11px;
+    border-radius: 3px;
+    background-color: rgb(245, 208, 78);
+    width: 60px;
+    padding: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.author img{
+    width: 40px;
+    height: 40px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.author p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18;
+    font-family: Heebo, "Heebo Fallback";
+    line-height: 27px;
+    font-style:  normal;
+}
